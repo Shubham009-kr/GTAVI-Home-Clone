@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
+    "@remixicon/react": "^4.9.0",
     "@tailwindcss/vite": "^4.1.18",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "remixicon": "^4.9.1",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {

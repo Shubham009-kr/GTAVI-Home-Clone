@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { useGSAP } from '@gsap/react'
 import { gsap } from 'gsap'
+import 'remixicon/fonts/remixicon.css'
+import { RiArrowDownLine } from '@remixicon/react'
 
 const App = () => {
 
@@ -67,11 +69,29 @@ const App = () => {
       </div>
       {heroContent && <div className='main w-full'>
         <div className='landing w-full h-screen bg-black'>
-          <div className='images-div relative w-full h-screen '>
+          <div className='navbar absolute w-full top-0 left-0 z-[10] py-10 px-10 '>
+            <div className='logo flex items-center gap-8'>
+              <div className='lines flex flex-col gap-1'>
+                <div className='line w-10 h-1 bg-white'></div>
+                <div className='line w-5 h-1 bg-white'></div>
+                <div className='line w-7 h-1 bg-white'></div>
+
+              </div>
+              <h3 className='text-2xl -mt-1 leading-none'>Rockstar</h3>
+            </div>
+          </div>
+          <div className='images-div relative w-full h-screen overflow-hidden '>
             <img className=' absolute top-0 left-0 w-full h-full object-cover' src="./sky.png" alt="" />
             {/* sky image above */}
             <img className='absolute top-0 left-0 w-full h-full object-cover' src="./bg2.png" alt="" />
-            <img className='absolute -bottom-115 scale-[0.4] w-full ' src="./gl.png" alt="" />
+            <img className='absolute -bottom-115 left-1/2 -translate-x-1/2 scale-[0.4] w-full ' src="./gl.png" alt="" />
+          </div>
+          <div className='btm-bar w-full py-10 px-10 absolute bottom-0 left-0 bg-gradient-to-t from-black to-transparent'>
+            <div className='flex gap-4'>
+              <RiArrowDownLine />
+              <h3 className='text-white font-[Helvetica] items-center'>Scroll Down</h3>
+            </div>
+            <img src="./ps5.png" className='h-10 absolute top-1/2 left-1/2 -translate-1/2 ' alt="" />
           </div>
         </div>
         </div>}
