@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Pricedown';
-  src: url('../public/fonts/pricedown.otf') format('truetype');
+  src: url('../fonts/pricedown.otf') format('truetype');
 }
 
 html, body {
@@ -13,5 +13,5 @@ html, body {
   font-family: 'Pricedown';
   background-color: #000000;
   color: #ffffff;
-  overflow: hidden;
+  overflow-x: hidden;
 }

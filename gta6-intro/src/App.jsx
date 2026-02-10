@@ -34,6 +34,27 @@ const App = () => {
 
   })  
 
+  useGSAP(() => {
+    const main = document.querySelector('.main');
+
+    main?.addEventListener("mousemove", function(e){
+      const xValue = (e.clientX / window.innerWidth - 0.5)*40;
+      const y = e.clientY / window.innerHeight - 0.5;
+
+      gsap.to('.images-div .title-text', {
+        x: `${xValue * .4}%`,
+      })
+      gsap.to('.sky', {
+        x: xValue,
+      })
+      gsap.to('.bg', {
+        x: xValue*1.7,
+      })
+      gsap.to('.character', {
+        x: -xValue,
+      })
+    })
+  }, [heroContent])
 
   return (
     <>
@@ -68,7 +89,7 @@ const App = () => {
         </svg>
       </div>
       {heroContent && <div className='main w-full'>
-        <div className='landing w-full h-screen bg-black'>
+        <div className='landing relative w-full h-screen bg-black'>
           <div className='navbar absolute w-full top-0 left-0 z-[10] py-10 px-10 '>
             <div className='logo flex items-center gap-8'>
               <div className='lines flex flex-col gap-1'>
@@ -80,20 +101,35 @@ const App = () => {
               <h3 className='text-2xl -mt-1 leading-none'>Rockstar</h3>
             </div>
           </div>
+          
           <div className='images-div relative w-full h-screen overflow-hidden '>
-            <img className=' absolute top-0 left-0 w-full h-full object-cover' src="./sky.png" alt="" />
+            <img className='sky absolute bottom-0 left-0 w-full scale-105 object-cover' src="./sky.png" alt="" />
             {/* sky image above */}
-            <img className='absolute top-0 left-0 w-full h-full object-cover' src="./bg2.png" alt="" />
-            <img className='absolute -bottom-115 left-1/2 -translate-x-1/2 scale-[0.4] w-full ' src="./gl.png" alt="" />
+            <img className='bg absolute top-0 left-0 w-full h-full scale-110 object-cover' src="./bg2.png" alt="" />
+            <div className='title-text absolute top-28 left-1/2 -translate-x-1/2 -translate-y-1/2'>
+              <h1 className='text-7xl -ml-20'>grand</h1>
+              <h1 className='text-7xl ml-5'>theft</h1>
+              <h1 className='text-7xl -ml-5'>auto</h1>
+            </div>
+            <img className='character absolute bottom-0 left-1/2 -translate-x-1/2  w-[40%]' src="./gl.png" alt="" />
           </div>
           <div className='btm-bar w-full py-10 px-10 absolute bottom-0 left-0 bg-gradient-to-t from-black to-transparent'>
             <div className='flex gap-4'>
               <RiArrowDownLine />
               <h3 className='text-white font-[Helvetica] items-center'>Scroll Down</h3>
             </div>
-            <img src="./ps5.png" className='h-10 absolute top-1/2 left-1/2 -translate-1/2 ' alt="" />
+            <img src="./ps5.png" className='h-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' alt="" />
           </div>
         </div>
+        <div className='w-full h-screen relative pl-10 flex items-center justify-center bg-black'>
+          <div className='cont relative w-full h-[80%]  '>
+            <div className='l-img h-full'>
+              <img className='absolute right-0 w-1/2 ' src="./gl2.png " alt="" />
+            </div>
+          </div>
+          
+        </div>
+        
         </div>}
     </>
   )
