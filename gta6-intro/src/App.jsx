@@ -172,8 +172,8 @@ const App = () => {
           
           <video src="vid.mp4" className='absolute bottom-0 left-1/2 -translate-x-1/2  w-2/3 border-2 border-cyan-100 rounded-3xl' autoPlay muted loop></video>
         </div>
-        <div className='w-full p-16'>
-          <div className='row w-full h-full py-16 mb-16 flex gap-12'>
+        <div className='w-full p-16 mt-12'>
+          <div className='row w-full h-full py-4 mb-16 flex gap-12'>
             <div className='card-container relative flex-1 aspect-square rounded-2xl overflow-hidden' id='card-1'> 
               <div className='card-img'>
                 <img src="Jd.png" className='w-full h-full object-cover' alt="" />
@@ -216,7 +216,7 @@ const App = () => {
                   455.772 760.548 137.262C1342.05 -111.152 1663.5 2266.25
                   2209.55 1972.76C2755.6 1679.18 1536.63 384.467 1826.55 137.262C2013.5 -22.1463
                   2209.55 381.262 2209.55 381.262" 
-                  stroke="#fe5e41" stroke-width="200" stroke-linecap="round"/>
+                  stroke="#E2B58B" stroke-width="200" stroke-linecap="round"/>
                 </svg>
               </div>
               <div className='svg-stroke svg-stroke-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-[1.5] w-full h-full'>
@@ -227,7 +227,7 @@ const App = () => {
                   427.949 2195.17 132.281 1455.51C-155.219 736.292 2014.78 891.514 
                   1708.78 252.012C1437.81 -314.29 396.471 909.169 132.281
                   566.512C18.1772 401.672 244.781 193.012 244.781 193.012" 
-                  stroke="#6e44ff" stroke-width="200" stroke-linecap="round"/>
+                  stroke="#A52A25" stroke-width="200" stroke-linecap="round"/>
                 </svg>
               </div>
               <div className='card-title absolute bottom-12 left-12 text-3xl text-black'>
@@ -235,7 +235,7 @@ const App = () => {
               </div>
             </div>
           </div>
-          <div className='row w-full h-full py-16 mb-16 flex gap-12'>
+          <div className='row w-full h-full py-4 mb-16 flex gap-12'>
             <div className='card-container relative flex-1 aspect-square rounded-2xl overflow-hidden' id='card-1'> 
               <div className='card-img'>
                 <img src="Ch.png" className='w-full h-full object-cover' alt="" />
@@ -248,7 +248,7 @@ const App = () => {
                   455.772 760.548 137.262C1342.05 -111.152 1663.5 2266.25
                   2209.55 1972.76C2755.6 1679.18 1536.63 384.467 1826.55 137.262C2013.5 -22.1463
                   2209.55 381.262 2209.55 381.262" 
-                  stroke="#fe5e41" stroke-width="200" stroke-linecap="round"/>
+                  stroke="#EDBAA4" stroke-width="200" stroke-linecap="round"/>
                 </svg>
               </div>
               <div className='svg-stroke svg-stroke-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-[1.5] w-full h-full'>
@@ -259,7 +259,7 @@ const App = () => {
                   427.949 2195.17 132.281 1455.51C-155.219 736.292 2014.78 891.514 
                   1708.78 252.012C1437.81 -314.29 396.471 909.169 132.281
                   566.512C18.1772 401.672 244.781 193.012 244.781 193.012" 
-                  stroke="#6e44ff" stroke-width="200" stroke-linecap="round"/>
+                  stroke="#4CBCC8" stroke-width="200" stroke-linecap="round"/>
                 </svg>
               </div>
               <div className='card-title absolute bottom-12 left-12 text-3xl text-black'>
@@ -278,7 +278,7 @@ const App = () => {
                   455.772 760.548 137.262C1342.05 -111.152 1663.5 2266.25
                   2209.55 1972.76C2755.6 1679.18 1536.63 384.467 1826.55 137.262C2013.5 -22.1463
                   2209.55 381.262 2209.55 381.262" 
-                  stroke="#fe5e41" stroke-width="200" stroke-linecap="round"/>
+                  stroke="#9D5686" stroke-width="200" stroke-linecap="round"/>
                 </svg>
               </div>
               <div className='svg-stroke svg-stroke-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-[1.5] w-full h-full'>
@@ -289,7 +289,7 @@ const App = () => {
                   427.949 2195.17 132.281 1455.51C-155.219 736.292 2014.78 891.514 
                   1708.78 252.012C1437.81 -314.29 396.471 909.169 132.281
                   566.512C18.1772 401.672 244.781 193.012 244.781 193.012" 
-                  stroke="#6e44ff" stroke-width="200" stroke-linecap="round"/>
+                  stroke="#462F2E" stroke-width="200" stroke-linecap="round"/>
                 </svg>
               </div>
               <div className='card-title absolute bottom-12 left-12 text-3xl text-black'>
@@ -297,7 +297,7 @@ const App = () => {
               </div>
             </div>
           </div>
-          <div className='row w-full h-full py-16 mb-16 flex gap-12'>
+          <div className='row w-full h-full py-4 mb-16 flex gap-12'>
             <div className='card-container relative flex-1 aspect-square rounded-2xl overflow-hidden' id='card-1'> 
               <div className='card-img'>
                 <img src="Dp.png" className='w-full h-full object-cover' alt="" />
@@ -310,7 +310,7 @@ const App = () => {
                   455.772 760.548 137.262C1342.05 -111.152 1663.5 2266.25
                   2209.55 1972.76C2755.6 1679.18 1536.63 384.467 1826.55 137.262C2013.5 -22.1463
                   2209.55 381.262 2209.55 381.262" 
-                  stroke="#fe5e41" stroke-width="200" stroke-linecap="round"/>
+                  stroke="#6D9FC5" stroke-width="200" stroke-linecap="round"/>
                 </svg>
               </div>
               <div className='svg-stroke svg-stroke-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-[1.5] w-full h-full'>
@@ -321,7 +321,7 @@ const App = () => {
                   427.949 2195.17 132.281 1455.51C-155.219 736.292 2014.78 891.514 
                   1708.78 252.012C1437.81 -314.29 396.471 909.169 132.281
                   566.512C18.1772 401.672 244.781 193.012 244.781 193.012" 
-                  stroke="#6e44ff" stroke-width="200" stroke-linecap="round"/>
+                  stroke="#B24443" stroke-width="200" stroke-linecap="round"/>
                 </svg>
               </div>
               <div className='card-title absolute bottom-12 left-12 text-3xl text-black'>
@@ -340,7 +340,7 @@ const App = () => {
                   455.772 760.548 137.262C1342.05 -111.152 1663.5 2266.25
                   2209.55 1972.76C2755.6 1679.18 1536.63 384.467 1826.55 137.262C2013.5 -22.1463
                   2209.55 381.262 2209.55 381.262" 
-                  stroke="#fe5e41" stroke-width="200" stroke-linecap="round"/>
+                  stroke="#BD4695" stroke-width="200" stroke-linecap="round"/>
                 </svg>
               </div>
               <div className='svg-stroke svg-stroke-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-[1.5] w-full h-full'>
@@ -351,7 +351,7 @@ const App = () => {
                   427.949 2195.17 132.281 1455.51C-155.219 736.292 2014.78 891.514 
                   1708.78 252.012C1437.81 -314.29 396.471 909.169 132.281
                   566.512C18.1772 401.672 244.781 193.012 244.781 193.012" 
-                  stroke="#6e44ff" stroke-width="200" stroke-linecap="round"/>
+                  stroke="#5C3639" stroke-width="200" stroke-linecap="round"/>
                 </svg>
               </div>
               <div className='card-title absolute bottom-12 left-12 text-3xl text-black'>
@@ -359,7 +359,7 @@ const App = () => {
               </div>
             </div>
           </div>
-          <div className='row w-full h-full py-16 mb-16 flex gap-12'>
+          <div className='row w-full h-full py-4 mb-16 flex gap-12'>
             <div className='card-container relative flex-1 aspect-square rounded-2xl overflow-hidden' id='card-1'> 
               <div className='card-img'>
                 <img src="Rb.png" className='w-full h-full object-cover' alt="" />
@@ -372,7 +372,7 @@ const App = () => {
                   455.772 760.548 137.262C1342.05 -111.152 1663.5 2266.25
                   2209.55 1972.76C2755.6 1679.18 1536.63 384.467 1826.55 137.262C2013.5 -22.1463
                   2209.55 381.262 2209.55 381.262" 
-                  stroke="#fe5e41" stroke-width="200" stroke-linecap="round"/>
+                  stroke="#6E5D4F" stroke-width="200" stroke-linecap="round"/>
                 </svg>
               </div>
               <div className='svg-stroke svg-stroke-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-[1.5] w-full h-full'>
@@ -383,7 +383,7 @@ const App = () => {
                   427.949 2195.17 132.281 1455.51C-155.219 736.292 2014.78 891.514 
                   1708.78 252.012C1437.81 -314.29 396.471 909.169 132.281
                   566.512C18.1772 401.672 244.781 193.012 244.781 193.012" 
-                  stroke="#6e44ff" stroke-width="200" stroke-linecap="round"/>
+                  stroke="#151110" stroke-width="200" stroke-linecap="round"/>
                 </svg>
               </div>
               <div className='card-title absolute bottom-12 left-12 text-3xl text-black'>
@@ -402,7 +402,7 @@ const App = () => {
                   455.772 760.548 137.262C1342.05 -111.152 1663.5 2266.25
                   2209.55 1972.76C2755.6 1679.18 1536.63 384.467 1826.55 137.262C2013.5 -22.1463
                   2209.55 381.262 2209.55 381.262" 
-                  stroke="#fe5e41" stroke-width="200" stroke-linecap="round"/>
+                  stroke="#494A29" stroke-width="200" stroke-linecap="round"/>
                 </svg>
               </div>
               <div className='svg-stroke svg-stroke-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-[1.5] w-full h-full'>
@@ -413,7 +413,7 @@ const App = () => {
                   427.949 2195.17 132.281 1455.51C-155.219 736.292 2014.78 891.514 
                   1708.78 252.012C1437.81 -314.29 396.471 909.169 132.281
                   566.512C18.1772 401.672 244.781 193.012 244.781 193.012" 
-                  stroke="#6e44ff" stroke-width="200" stroke-linecap="round"/>
+                  stroke="#C2925A" stroke-width="200" stroke-linecap="round"/>
                 </svg>
               </div>
               <div className='card-title absolute bottom-12 left-12 text-3xl text-black'>
