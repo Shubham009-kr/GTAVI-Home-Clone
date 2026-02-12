@@ -238,7 +238,7 @@ const App = () => {
           <div className='row w-full h-full py-16 mb-16 flex gap-12'>
             <div className='card-container relative flex-1 aspect-square rounded-2xl overflow-hidden' id='card-1'> 
               <div className='card-img'>
-                <img src="Jd.png" className='w-full h-full object-cover' alt="" />
+                <img src="Ch.png" className='w-full h-full object-cover' alt="" />
               </div>
               <div className='svg-stroke svg-stroke-1 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-[1.5] w-full h-full'>
                 <svg className='w-full h-full object-cover' width="2453" height="2273" viewBox="0 0 2453 2273" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -263,12 +263,12 @@ const App = () => {
                 </svg>
               </div>
               <div className='card-title absolute bottom-12 left-12 text-3xl text-black'>
-                <h3>Jason Duval</h3>
+                <h3>Cal Hampton</h3>
               </div>
             </div>
             <div className='card-container relative flex-1 aspect-square rounded-2xl overflow-hidden' id='card-2'>
               <div className='card-img'>
-                <img className='w-full h-full object-cover' src="card2.png" alt="" />
+                <img className='w-full h-full object-cover' src="Bi.png" alt="" />
               </div>
               <div className='svg-stroke svg-stroke-1 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-[1.5] w-full h-full'>
                 <svg className='w-full h-full object-cover' width="2453" height="2273" viewBox="0 0 2453 2273" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -293,14 +293,14 @@ const App = () => {
                 </svg>
               </div>
               <div className='card-title absolute bottom-12 left-12 text-3xl text-black'>
-                <h3>Lucia Caminos</h3>
+                <h3 className='text-white'>Boobie IKE</h3>
               </div>
             </div>
           </div>
           <div className='row w-full h-full py-16 mb-16 flex gap-12'>
             <div className='card-container relative flex-1 aspect-square rounded-2xl overflow-hidden' id='card-1'> 
               <div className='card-img'>
-                <img src="Jd.png" className='w-full h-full object-cover' alt="" />
+                <img src="Dp.png" className='w-full h-full object-cover' alt="" />
               </div>
               <div className='svg-stroke svg-stroke-1 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-[1.5] w-full h-full'>
                 <svg className='w-full h-full object-cover' width="2453" height="2273" viewBox="0 0 2453 2273" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -325,12 +325,12 @@ const App = () => {
                 </svg>
               </div>
               <div className='card-title absolute bottom-12 left-12 text-3xl text-black'>
-                <h3>Jason Duval</h3>
+                <h3 className='text-white'>Dre'quan Priest</h3>
               </div>
             </div>
             <div className='card-container relative flex-1 aspect-square rounded-2xl overflow-hidden' id='card-2'>
               <div className='card-img'>
-                <img className='w-full h-full object-cover' src="card2.png" alt="" />
+                <img className='w-full h-full object-cover' src="Rd.png" alt="" />
               </div>
               <div className='svg-stroke svg-stroke-1 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-[1.5] w-full h-full'>
                 <svg className='w-full h-full object-cover' width="2453" height="2273" viewBox="0 0 2453 2273" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -355,14 +355,14 @@ const App = () => {
                 </svg>
               </div>
               <div className='card-title absolute bottom-12 left-12 text-3xl text-black'>
-                <h3>Lucia Caminos</h3>
+                <h3 className='text-white'>Real Dimez</h3>
               </div>
             </div>
           </div>
           <div className='row w-full h-full py-16 mb-16 flex gap-12'>
             <div className='card-container relative flex-1 aspect-square rounded-2xl overflow-hidden' id='card-1'> 
               <div className='card-img'>
-                <img src="Jd.png" className='w-full h-full object-cover' alt="" />
+                <img src="Rb.png" className='w-full h-full object-cover' alt="" />
               </div>
               <div className='svg-stroke svg-stroke-1 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-[1.5] w-full h-full'>
                 <svg className='w-full h-full object-cover' width="2453" height="2273" viewBox="0 0 2453 2273" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -387,12 +387,12 @@ const App = () => {
                 </svg>
               </div>
               <div className='card-title absolute bottom-12 left-12 text-3xl text-black'>
-                <h3>Jason Duval</h3>
+                <h3 className='text-white'>Raul Bautista</h3>
               </div>
             </div>
             <div className='card-container relative flex-1 aspect-square rounded-2xl overflow-hidden' id='card-2'>
               <div className='card-img'>
-                <img className='w-full h-full object-cover' src="card2.png" alt="" />
+                <img className='w-full h-full object-cover' src="Bh.png" alt="" />
               </div>
               <div className='svg-stroke svg-stroke-1 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-[1.5] w-full h-full'>
                 <svg className='w-full h-full object-cover' width="2453" height="2273" viewBox="0 0 2453 2273" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -417,7 +417,7 @@ const App = () => {
                 </svg>
               </div>
               <div className='card-title absolute bottom-12 left-12 text-3xl text-black'>
-                <h3>Lucia Caminos</h3>
+                <h3 className='text-white'>Brian Heder</h3>
               </div>
             </div>
           </div>
